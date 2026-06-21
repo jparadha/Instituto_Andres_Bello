@@ -1,0 +1,84 @@
+<!--========================================
+Instituto Andrés Bello
+Taller de Integración de Software
+
+Autor: JParadha
+Fecha: 20/06/2026
+
+Archivo Index.html
+Descripcion: Pagina principal del sitio, sistema de registro estudiantil.
+========================================-->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Configuración de caracteres -->
+        <meta charset="UTF-8">
+
+    <!-- Adaptación a dispositivos móviles -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título que aparecera en la pestaña del navegador -->
+        <title>Instituto Andrés Bello | Registro Estudiantil</title>
+    
+    <!-- Hoja de estilos para la página -->
+        <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+<!-- Título principal -->
+ <h1>Instituto Andres Bello</h1>
+
+ <!-- Subtítulo -->
+ <h2>Sistema de Registro Estudiantil</h2>
+
+ <!-- Inicio del formulario -->
+  <form>
+      
+    <!-- Campo Nombre -->
+      <label for="nombre">Nombre:</label><br>
+      <input type=""text" id=""nombre" name=""nombre" required><br><br>
+
+    <!-- Campo Apellido -->
+      <label for="apellido">Apellido:</label><br>
+      <input type=""text" id=""apellido" name=""apellido" required><br><br>
+
+    <!-- Campo RUT -->
+      <label for="rut">RUT:</label><br>
+      <input type=""text" id=""rut" name=""rut" required><br><br>
+
+    <!-- Campo Direccion -->
+        <label for="direccion">Dirección:</label><br>
+        <input type=""text" id=""direccion" name=""direccion" required><br><br>
+    
+    <!-- Campo Carrera -->
+        <label for="carrera">Carrera:</label><br>
+        <select id="carrera" name="carrera" required>
+
+            <option value="">Seleccione una carrera</option>
+
+            <option>Analista Programador</option>
+
+            <option>Ingeniería en Informática</option>
+
+            <option>Ciberseguridad</option>
+
+            <option>Desarrollo de Software</option>
+
+        </select>
+        <br><br>
+
+    <!-- Campo Fecha -->
+        <label for="periodo">Fecha del periodo academico:</label><br>
+        <input type="date" id="periodo" name="periodo" required>
+        <br><br>
+
+    <!-- Botones -->
+     <input type=""submit" value="Registrar">
+     <input type=""reset" value="Limpiar">
+
+  </form>
+
+</body>
+
+</html>
